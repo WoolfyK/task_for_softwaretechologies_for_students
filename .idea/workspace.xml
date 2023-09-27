@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="631e36af-6f9a-4ffc-a638-cd5c0c305a14" name="Changes" comment="emptyProject">
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/MoneyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/softwaretechnologies/EqualsHashCodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="631e36af-6f9a-4ffc-a638-cd5c0c305a14" name="Changes" comment="Task2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softwaretechnologies/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/softwaretechnologies/MainTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +13,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/../classobjectproblemset">
-      <ProjectState />
-    </projectState>
-    <projectState path="$PROJECT_DIR$/../task_for_softwaretechnologies">
-      <ProjectState />
-    </projectState>
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
@@ -40,7 +25,17 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task_for_softwaretechologies_for_students" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task_for_softwaretechologies_for_students" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -57,15 +52,20 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="w2lvera &lt;w2lvera@gmail.com&gt;" />
         <option value="w2lvera" />
       </list>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="task1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -76,19 +76,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;task2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vera/IdeaProjects/task_for_softwaretechnologies&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.38850576&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ArrayFunctionsTest.executor": "Run",
+    "Gradle.ElevatorTest.executor": "Run",
+    "Gradle.EqualsHashCodeTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "task2"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.EqualsHashCodeTest.validate">
-    <configuration name="EqualsHashCodeTest.validate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RunManager" selected="Gradle.EqualsHashCodeTest">
+    <configuration name="ArrayFunctionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,7 +100,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.softwaretechnologies.EqualsHashCodeTest.validate&quot;" />
+            <option value="&quot;org.softwaretechnologies.ArrayFunctionsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -112,32 +111,61 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="task_for_softwaretechologies_for_students [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ElevatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.softwaretechnologies.ElevatorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="EqualsHashCodeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.softwaretechnologies.EqualsHashCodeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EqualsHashCodeTest.validate" />
-        <item itemvalue="Gradle.task_for_softwaretechologies_for_students [build]" />
+        <item itemvalue="Gradle.EqualsHashCodeTest" />
+        <item itemvalue="Gradle.ElevatorTest" />
+        <item itemvalue="Gradle.ArrayFunctionsTest" />
+        <item itemvalue="Gradle.ElevatorTest" />
+        <item itemvalue="Gradle.ArrayFunctionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,10 +178,37 @@
       <option name="presentableId" value="Default" />
       <updated>1695837630593</updated>
     </task>
+    <task id="LOCAL-00001" summary="Task1">
+      <option name="closed" value="true" />
+      <created>1730947327042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730947327042</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Task2">
+      <option name="closed" value="true" />
+      <created>1730949780678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730949780678</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Task2">
+      <option name="closed" value="true" />
+      <created>1730949821437</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730949821437</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task1" />
     <MESSAGE value="emptyProject" />
-    <option name="LAST_COMMIT_MESSAGE" value="emptyProject" />
+    <MESSAGE value="Task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2" />
   </component>
 </project>
