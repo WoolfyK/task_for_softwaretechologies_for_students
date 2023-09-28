@@ -1,8 +1,9 @@
 package org.softwaretechnologies;
 
-import org.softwaretechnologies.employee.Employee;
-import org.softwaretechnologies.employee.EmployeeType;
+import org.softwaretechnologies.employee.*;
 
+import java.time.LocalDate;
+import java.time.YearMonth;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,17 +24,24 @@ public class Company {
      */
     public void addEmployee(String name, int baseSalary, EmployeeType type) {
         // TODO: реализуйте вышеуказанную функцию
+        EmployeeFactory newEmployee = new EmployeeFactory(name, baseSalary);
+        employeeList.add(newEmployee);
 
-    }
+
+    };
 
     /**
      * Возвращает сумму зарплат всех сотрудников за указанный месяц
      * @param month номер месяца
      * @return сумма зарплат всех сотрудников за указанный месяц
      */
-    public int getMonthSalary(int month) {
+    public int getTotalSalary(int month) {
         // TODO: реализуйте вышеуказанную функцию
-
+        int total = 0;
+        for (Employee employee : employeeList) {
+            total += employee.getMonthSalary();
+        }
+        return total;
         return 0;
     }
 
