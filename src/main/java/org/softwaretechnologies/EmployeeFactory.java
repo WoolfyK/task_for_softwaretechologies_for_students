@@ -2,6 +2,8 @@ package org.softwaretechnologies;
 
 import org.softwaretechnologies.employee.*;
 
+
+
 public class EmployeeFactory {
 
     /**
@@ -17,6 +19,30 @@ public class EmployeeFactory {
 
     public static Employee createEmployee(String name, int baseSalary, EmployeeType type) {
         // TODO: реализуйте вышеуказанную функцию
+        switch (type){
+            case Tester:
+                return new Tester(name, baseSalary) {
+                    @Override
+                    public int getMonthSalary(int month) {
+                        return super.getMonthSalary(month);
+                    }
+                };
+            case Manager:
+                return new Manager(name, baseSalary) {
+                    @Override
+                    public int getMonthSalary(int month) {
+                        return super.getMonthSalary(month);
+                    }
+                };
+            case Programmer:
+                return new Programmer(name, baseSalary) {
+                    @Override
+                    public int getMonthSalary(int month) {
+                        return super.getMonthSalary(month);
+                    }
+                };
+        }
+
 
         return null;
     }
