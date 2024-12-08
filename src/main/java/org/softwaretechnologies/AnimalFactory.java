@@ -1,7 +1,6 @@
 package org.softwaretechnologies;
 
-import org.softwaretechnologies.animals.Animal;
-import org.softwaretechnologies.animals.AnimalType;
+import org.softwaretechnologies.animals.*;
 
 public class AnimalFactory {
 
@@ -15,6 +14,29 @@ public class AnimalFactory {
 
     public static Animal createAnimal(String name, AnimalType type) {
         /* TODO в зависимости от type создайте и верните нужное животное */
+        switch (type){
+            case CAT:
+                return new Cat(name) {
+                    @Override
+                    public String sound() {
+                        return super.sound();
+                    }
+                };
+            case DOG:
+                return new Dog(name) {
+                    @Override
+                    public String sound() {
+                        return super.sound();
+                    }
+                };
+            case COW:
+                return new Cow(name) {
+                    @Override
+                    public String sound() {
+                        return super.sound();
+                    }
+                };
+        }
 
         return null;
     }
