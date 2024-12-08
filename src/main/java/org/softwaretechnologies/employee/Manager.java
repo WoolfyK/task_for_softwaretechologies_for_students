@@ -1,6 +1,5 @@
 package org.softwaretechnologies.employee;
-import java.time.LocalDate;
-import java.time.YearMonth;
+
 
 public abstract class Manager extends Employee {
 

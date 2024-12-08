@@ -1,7 +1,6 @@
 package org.softwaretechnologies.employee;
 
-import java.time.LocalDate;
-import java.time.YearMonth;
+
 
 /**
  * Тип сотрудника
@@ -26,6 +25,6 @@ public enum EmployeeType {
      */
     Tester{
 
-    };
+    }
 
 }
